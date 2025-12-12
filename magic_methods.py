@@ -111,10 +111,17 @@ print(book1 // book2)
 print(book1 % book2)
 print(book1 ** book2)
 
-print(book1 += book2)
-print(book1 -= book2)
-print(book1 *= book2)
-print(book1 /= book2)
-print(book1 //= book2)
-print(book1 %= book2)
-print(book1 **= book2)
+book1 += book2
+print(book1)
+book1 -= book2
+print(book1)
+book1 *= book2
+print(book1)
+book1 /= book2
+print(book1)
+book1 //= book2
+print(book1)
+book1 %= book2
+print(book1)
+book1 **= book2
+print(book1)
